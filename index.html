@@ -525,12 +525,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     padding: 0;
   }
   .bonus-list-item {
-    padding: 18px 0;
-    border-bottom: 1px dashed var(--dusty-pink-light);
+    padding: 36px 24px 32px;
+    background: var(--offwhite);
+    border: 2px solid var(--deep-red);
+    border-radius: 8px;
     list-style: none;
+    box-shadow: 0 8px 24px rgba(138, 59, 47, 0.18), 0 2px 6px rgba(138, 59, 47, 0.08);
+    position: relative;
+    overflow: visible;
   }
   .bonus-list-item::before { content: none; }
-  .bonus-list-item:last-child { border-bottom: none; }
+  .bonus-list-item:last-child { border-bottom: 2px solid var(--deep-red); }
   .bonus-list-num {
     display: inline-block;
     width: 44px;
@@ -545,15 +550,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     letter-spacing: 0.04em;
     margin-bottom: 10px;
   }
+  /* ステージ：深紅のリボン風タグで強調 */
   .bonus-list-stage {
+    display: inline-block;
+    padding: 8px 22px;
+    background: var(--deep-red);
+    color: var(--offwhite);
     font-size: 13px;
-    color: var(--dusty-pink);
-    letter-spacing: 0.1em;
-    margin-bottom: 6px;
+    letter-spacing: 0.12em;
+    font-weight: 500;
+    border-radius: 999px;
+    margin-bottom: 18px;
+    box-shadow: 0 3px 10px rgba(138, 59, 47, 0.25);
   }
   .bonus-list-name {
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 19px;
+    font-weight: 700;
     color: var(--dark-green);
     line-height: 1.6;
     letter-spacing: 0.05em;
@@ -729,7 +741,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .voice-meta-name { font-size: 17px; }
     .voice-text { font-size: 14.5px; }
     .bonus-gifts { max-width: 600px; gap: 24px; }
-    .bonus-list-name { font-size: 19px; }
+    .bonus-list-name { font-size: 21px; }
+    .bonus-list-item { padding: 40px 28px 36px; }
     .sticky-cta { padding: 12px 16px; }
     .sticky-cta-button { font-size: 16px; padding: 16px 12px; }
   }
@@ -745,7 +758,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- 追従CTA -->
 <div class="sticky-cta" id="stickyCta">
   <div class="sticky-cta-inner">
-    <a href="https://liff.line.me/2006592911-aR0ZBo0B?liff_id=2006592911-aR0ZBo0B&is=IaCreyX4Fd" target="_blank" rel="noopener" class="sticky-cta-button">個別相談会お申込み</a>
+    <a href="https://liff.line.me/2006592911-aR0ZBo0B?liff_id=2006592911-aR0ZBo0B&is=IaCreyX4Fd" target="_blank" rel="noopener" class="sticky-cta-button">個別相談会お申し込み</a>
   </div>
 </div>
 
@@ -759,7 +772,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- ========== CTA①（FV直下） ========== -->
   <div class="cta-section">
     <p class="cta-lead">まずは個別相談会から、はじめてみませんか？</p>
-    <a href="https://liff.line.me/2006592911-aR0ZBo0B?liff_id=2006592911-aR0ZBo0B&is=IaCreyX4Fd" target="_blank" rel="noopener" class="cta-button">個別相談会お申込み</a>
+    <a href="https://liff.line.me/2006592911-aR0ZBo0B?liff_id=2006592911-aR0ZBo0B&is=IaCreyX4Fd" target="_blank" rel="noopener" class="cta-button">個別相談会お申し込み</a>
     <p class="cta-sub">CONSULTATION&nbsp;&nbsp;|&nbsp;&nbsp;FREE</p>
   </div>
 
@@ -1004,7 +1017,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <ul class="bonus-list fade-in-stagger">
       <li class="bonus-list-item">
-        <div class="bonus-list-stage">個別相談会参加</div>
+        <div class="bonus-list-stage">個別相談会ご参加でプレゼント</div>
         <div class="bonus-list-name">夏のダメージ回復食材BOOK</div>
       </li>
     </ul>
@@ -1015,7 +1028,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       ここから始めてください。
     </p>
 
-    <a href="https://liff.line.me/2006592911-aR0ZBo0B?liff_id=2006592911-aR0ZBo0B&is=IaCreyX4Fd" target="_blank" rel="noopener" class="cta-button">個別相談会お申込み</a>
+    <a href="https://liff.line.me/2006592911-aR0ZBo0B?liff_id=2006592911-aR0ZBo0B&is=IaCreyX4Fd" target="_blank" rel="noopener" class="cta-button">個別相談会お申し込み</a>
     <p class="cta-sub" style="margin-top: 14px;">CONSULTATION&nbsp;&nbsp;|&nbsp;&nbsp;FREE</p>
   </section>
 
@@ -1096,7 +1109,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       薬膳を仕事にする<br>
       <span>第一歩を、ここから</span>
     </p>
-    <a href="https://liff.line.me/2006592911-aR0ZBo0B?liff_id=2006592911-aR0ZBo0B&is=IaCreyX4Fd" target="_blank" rel="noopener" class="cta-button">個別相談会お申込み</a>
+    <a href="https://liff.line.me/2006592911-aR0ZBo0B?liff_id=2006592911-aR0ZBo0B&is=IaCreyX4Fd" target="_blank" rel="noopener" class="cta-button">個別相談会お申し込み</a>
     <p class="cta-sub">CONSULTATION&nbsp;&nbsp;|&nbsp;&nbsp;FREE</p>
   </section>
 
