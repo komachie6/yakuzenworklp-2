@@ -501,7 +501,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     justify-content: center;
     align-items: center;
     max-width: 540px;
-    margin: 0 auto 36px;
+    margin: 0 auto;
   }
   .bonus-gift-photo {
     line-height: 0;
@@ -515,6 +515,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     height: auto;
     display: block;
     filter: drop-shadow(0 10px 22px rgba(58, 42, 30, 0.22));
+  }
+  /* 特典タイトル（テキストブロック）：写真の前に置いて主役を提示 */
+  .bonus-info {
+    text-align: center;
+    max-width: 540px;
+    margin: 0 auto 28px;
+  }
+  .bonus-info-stage {
+    display: inline-block;
+    padding: 8px 22px;
+    background: var(--deep-red);
+    color: var(--offwhite);
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    font-weight: 500;
+    border-radius: 999px;
+    margin-bottom: 18px;
+    box-shadow: 0 3px 10px rgba(138, 59, 47, 0.25);
+  }
+  .bonus-info-name {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--dark-green);
+    line-height: 1.5;
+    letter-spacing: 0.05em;
   }
   /* 特典の説明テキスト（中央揃え、大きめ） */
   .bonus-list {
@@ -743,6 +768,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .bonus-gifts { max-width: 600px; gap: 24px; }
     .bonus-list-name { font-size: 21px; }
     .bonus-list-item { padding: 40px 28px 36px; }
+    .bonus-info-name { font-size: 25px; }
     .sticky-cta { padding: 12px 16px; }
     .sticky-cta-button { font-size: 16px; padding: 16px 12px; }
   }
@@ -1009,18 +1035,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <em>今だけの特典</em>
     </h2>
 
+    <div class="bonus-info">
+      <div class="bonus-info-stage">個別相談会ご参加でプレゼント</div>
+      <div class="bonus-info-name">夏のダメージ回復食材BOOK</div>
+    </div>
+
     <div class="bonus-gifts">
       <div class="bonus-gift-photo">
         <img src="bonus_book.jpg" alt="夏のダメージ回復食材BOOK">
       </div>
     </div>
-
-    <ul class="bonus-list fade-in-stagger">
-      <li class="bonus-list-item">
-        <div class="bonus-list-stage">個別相談会ご参加でプレゼント</div>
-        <div class="bonus-list-name">夏のダメージ回復食材BOOK</div>
-      </li>
-    </ul>
 
     <p class="bonus-closing">
       まずは個別相談会で、<br>
